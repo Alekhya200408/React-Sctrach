@@ -49,7 +49,7 @@ const App = () => {
         >
           Prev
         </button>
-        <div className='py-5'>Page {index}</div>
+        <div className='py-5'> {index}</div>
         <button 
         className='bg-amber-300 rounded-xl active:scale-x-95 mt-2 cursor-pointer  text-black p-4  '
         onClick={()=>{
